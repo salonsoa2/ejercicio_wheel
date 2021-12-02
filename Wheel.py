@@ -6,5 +6,7 @@ class Wheel:
         self.presion = 0
     def set_pressure(self, presion):
         self.presion = presion
+    def print_info(self, prin):
+        self.prin = prin
 
 
